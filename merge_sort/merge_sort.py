@@ -1,4 +1,4 @@
-a = list(map(int, input().split()))
+a = list(map(str, input().split()))
 #b = list(map(int, input().split()))
 
 
@@ -28,3 +28,4 @@ def merge_sort(a):
 
 print(merge_sort(a))
 
+ 
