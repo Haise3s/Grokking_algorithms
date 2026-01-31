@@ -1,8 +1,5 @@
-from collections import deque
-
-
 def RPN(expressions: str) -> float:
-    stack = deque()
+    stack = []
     for el in expressions.split():
         if el in "+-/*":
             if len(stack) < 2:
